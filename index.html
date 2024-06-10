@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F. Chavez | Portfolio web</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img decoding="async" src="./images/logo.png" class="img-fluid" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icons"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobremi">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#contactame">Contáctame</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6>PORTFOLIO WEB</h6>
+                    <h1>Hola, soy Fernando <br> Chávez. <span>Estudiante <br> de Ciencia de la <br> Computación.</span></h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img decoding="async" src="./images/about.png" class="img-fluid rounded-3" alt="Sobre mi" width="1000" height="auto">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <span class="subtitle">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</span>
+                        <h2>Sobre mí</h2>
+                        <p>Tengo 19 años, vivo en Arequipa-Perú. Me apasiona la programación y tengo un fuerte enfoque en el desarrollo de software e inteligencia artificial.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-objectives-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-objectives" type="button" role="tab" aria-controls="pills-objectives"
+                                    aria-selected="true">Objetivos</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-tools-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-tools" type="button" role="tab" aria-controls="pills-tools"
+                                    aria-selected="false">Herramientas</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Estudios</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-objectives" role="tabpanel" aria-labelledby="pills-objectives-tab">
+                                <ul class="text-start ps-0">
+                                    <li><b>Desarrollo de habilidades técnicas</b>
+                                        Me enfoco en mejorar mis habilidades técnicas en programación y desarrollo de software.                                    
+                                    </li>
+                                    <li><b>Contribuir en proyectos de impacto</b>
+                                        Mi meta es trabajar en proyectos que generen un impacto positivo en la sociedad.
+                                    </li>
+                                    <li><b>Crecimiento profesional continuo</b>
+                                        Busco seguir aprendiendo y creciendo profesionalmente en el campo de la tecnología y programación.
+                                    </li>
+                                    <li><b>Liderazgo y mentoreo</b>
+                                        Aspiro a liderar y apoyar a otros en su desarrollo profesional en este ámbito.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-tools" role="tabpanel" aria-labelledby="pills-tools-tab">
+                                <div class="single-progress">
+                                    <h6><img src="./images/tool icons/visualestudio-icon.png" alt="visual studio">
+                                    <img src="./images/tool icons/vscode-icon.png" alt="vscode"> Visual Studio / VSCode</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">70%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6><img src="./images/tool icons/cmake-icon.png" alt="cmake"> CMake</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">50%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6><img src="./images/tool icons/Mysql.png" alt="mysql"> MySQL</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 45%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">45%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6><img src="./images/tool icons/photoshop-icon.png" alt="photoshop"> Photoshop</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 65%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">65%</span>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li><b>I.E. Sebastián Barranca</b>
+                                        Secundaria, 2017 - 2018
+                                    </li>
+                                    <li><b>Colegio de Alto Rendimiento - Arequipa</b>
+                                        Secundaria/Bachillerato, 2019 - 2021
+                                    </li>
+                                    <li><b>Universidad Católica de Santa María (UCSM)</b>
+                                        Medicina, 2022
+                                    </li>
+                                    <li><b>Universidad Nacional de San Agustín (UNSA)</b>
+                                        Ciencia de la Computación, 2022 - Actualidad
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</span>
+                    <h2>Mis habilidades</h2>
+                </div>
+            </div>
+            <div class="row skills-content">
+                <div class="col-lg-6 col-sm-12 mb-4">
+                    <span class="text-center"><h3>Habilidades Técnicas</h3></span>
+                    <div class="card">
+                        <div class="progress">
+                            <span class="skill">HTML<i class="val">70%</i></span>
+                            <div class="progress-bar-w">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">CSS<i class="val">65%</i></span>
+                            <div class="progress-bar-w">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">JS<i class="val">45%</i></span>
+                            <div class="progress-bar-w">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">C++<i class="val">75%</i></span>
+                            <div class="progress-bar-w">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">Python<i class="val">70%</i></span>
+                            <div class="progress-bar-w">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <span class="skill">Processing<i class="val">50%</i></span>
+                            <div class="progress-bar-w">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 mb-4">
+                    <span class="text-center"><h3>Habilidades Profesionales</h3></span>
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 circular-progress-container">
+                                <span class="skill">Trabajo en equipo</span>
+                                <div class="circular-progress" data-percentage="90">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                        <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                        <text x="18" y="20.35" class="percentage-text">90%</text>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 circular-progress-container">
+                                <span class="skill">Creatividad</span>
+                                <div class="circular-progress" data-percentage="70">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                        <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                        <text x="18" y="20.35" class="percentage-text">70%</text>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 circular-progress-container">
+                                <span class="skill">Comunicación</span>
+                                <div class="circular-progress" data-percentage="90">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                        <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                        <text x="18" y="20.35" class="percentage-text">90%</text>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 circular-progress-container">
+                                <span class="skill">Adaptabilidad</span>
+                                <div class="circular-progress" data-percentage="85">
+                                    <svg viewBox="0 0 36 36" class="circular-chart">
+                                        <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                        <path class="circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                        <text x="18" y="20.35" class="percentage-text">85%</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</span>
+                    <h2>Mis proyectos</h2>
+                    <p>Estos son algunos trabajos que he realizado hasta el momento.<br class="d-none d-md-block">
+                        Algunos orientados como práctica y otros como proyectos a finalizar.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row container justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-4 proyect">
+                        <img src="./images/portfolio/airhockey.jpg" alt="proyecto1" height="250px">
+                        <div class="layer">
+                            <h3>AirHockey</h3>
+                            <p>Famoso juego de ferias recreado en Processing con temática de escuelas de ingenierías</p>
+                            <a href="https://github.com/Ferd1n4nd/AirHockey_Processing" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-4 proyect">
+                        <img src="./images/portfolio/shapes&beasts.jpg" alt="proyecto2" height="250px">
+                        <div class="layer">
+                            <h3>Just Shapes & Beats - vPeruana</h3>
+                            <p>Propio nivel basado en el juego Just Shapes & Beats, creado en Processing</p>
+                            <a href="https://github.com/Ferd1n4nd/Just-Shapes-Beats_vChafa_Processing" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-4 proyect">
+                        <img src="./images/portfolio/esteganografia.jpg" alt="proyecto3" height="250px">
+                        <div class="layer">
+                            <h3>Esteganografía en archivos de audio</h3>
+                            <p>Proyecto en C++ que usa métodos de esteganografía para ocultar información en audios</p>
+                            <a href="https://github.com/Ferd1n4nd/Ferd1n4nd-Esteganografia-de-audio-por-capas-Huffman-AES-LSB/tree/main" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-4 proyect">
+                        <img src="./images/portfolio/datatable.jpg" alt="proyecto4" height="250px">
+                        <div class="layer">
+                            <h3>DataTable de Alumnos</h3>
+                            <p>Tabla que muestra los datos almacenados en una base de datos, usando Django, JQuery y DataTable</p>
+                            <a href="https://github.com/Ferd1n4nd/System-DataTable_Django_JQuery" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-4 proyect">
+                        <img src="./images/portfolio/blogdanza.jpg" alt="proyecto5" height="250px">
+                        <div class="layer">
+                            <h3>Blog - Escuela de danza</h3>
+                            <p>Pagina web sobre un blog de una escuela de danza, usando HTML5, CSS3 y BOOTSTRAP</p>
+                            <a href="https://github.com/Ferd1n4nd/Blog-Escuela-de-Danza" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-4 proyect">
+                        <img src="./images/portfolio/formulario.jpg" alt="proyecto6" height="250px">
+                        <div class="layer">
+                            <h3>Formulario web</h3>
+                            <p>Creación de un formulario web con JavaScript</p>
+                            <a href="https://github.com/Ferd1n4nd/Formulario-web-JS" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactame" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">ㅤㅤㅤㅤㅤㅤ</span>
+                    <h2>Contáctame</h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3">Puedes llamarme al:</label>
+                        <div class="col-sm-9 mb-3 mb-lg-2">
+                            <a href="javascript:void(0)">+51 958504275</a>
+                        </div>
+                        <label class="col-sm-3">O escribirme al correo:</label>
+                        <div class="col-sm-9 mb-3 mb-lg-2">
+                            <a href="mailto:example@gmail.com">fernando.chavez.fjcm@gmail.com</a>
+                        </div>
+                    </div> 
+                    <form id="contact-form">
+                        <div class="mb-4">
+                            <input type="text" name="user_name" class="form-control" required placeholder="Tu nombre..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="number" name="user_phone" class="form-control" required placeholder="Tu telefono..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" name="user_email" class="form-control" required placeholder="Tu correo..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input cols="40" rows="4" name="user_message" class="form-control" id="message" required placeholder="Escribe un mensaje..." autocomplete="off">
+                            <p id="c-message"></p>
+                        </div>
+                        <button type="submit" class="main-btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img decoding="async" src="./images/contact.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contactame" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img decoding="async" src="./images/logo.png">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center jus social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="https://www.instagram.com/ferdinand_chm/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/Fernando.Chavez.M.18" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/Fjcm_123" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/fernando-jesus-chavez-medina-a75668312/" target="_blank"><i class="fab fa-linkedin-in"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright-text text-lg-end text-center mb-3 mb-lg-0">
+                        <p class="mb-0">Copyright © 2024 <a href="#">F.Chavez</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
